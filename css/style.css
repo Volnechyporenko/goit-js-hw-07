@@ -1,0 +1,25 @@
+.color {
+  color: blue;
+}
+#validation-input {
+    border: 3px solid #bdbdbd;
+  }
+  
+  #validation-input.valid {
+    border-color: #4caf50;
+  }
+    
+  #validation-input.invalid {
+    border-color: #f44336;
+  }
+
+  .gallarystyle {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    max-width: 940 px;
+}
